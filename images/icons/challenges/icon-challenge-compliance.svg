@@ -1,0 +1,13 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Document outline -->
+  <path d="M5 3H16L19 6V21H5V3Z" stroke="#10b981" stroke-width="1.5" stroke-linejoin="round" fill="rgba(16,185,129,0.06)"/>
+  <!-- Folded corner -->
+  <polyline points="16,3 16,6 19,6" stroke="#10b981" stroke-width="1" stroke-linejoin="round"/>
+  <!-- Document lines -->
+  <line x1="8" y1="10" x2="16" y2="10" stroke="#10b981" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <line x1="8" y1="13" x2="16" y2="13" stroke="#10b981" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <!-- Compliance badge / stamp -->
+  <circle cx="8" cy="17.5" r="3" stroke="#10b981" stroke-width="1.2" fill="rgba(16,185,129,0.15)"/>
+  <!-- Checkmark inside badge -->
+  <polyline points="6.5,17.5 7.7,18.7 9.5,16.5" stroke="#10b981" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Globe outline -->
+  <circle cx="12" cy="12" r="9" stroke="#10b981" stroke-width="1.5" fill="rgba(16,185,129,0.05)"/>
+  <!-- Latitude lines -->
+  <ellipse cx="12" cy="12" rx="9" ry="4" stroke="#10b981" stroke-width="0.8" opacity="0.3"/>
+  <!-- Vertical meridian -->
+  <line x1="12" y1="3" x2="12" y2="21" stroke="#10b981" stroke-width="0.8" opacity="0.3"/>
+  <!-- UAE/GCC location pin -->
+  <circle cx="15" cy="11" r="2" fill="#10b981"/>
+  <path d="M15 13C15 13 12.5 16 12.5 18C12.5 16 15 13 15 13Z" fill="#10b981"/>
+  <!-- Scan pulse ring at pin -->
+  <circle cx="15" cy="11" r="4" stroke="#10b981" stroke-width="0.8" opacity="0.35" stroke-dasharray="2 1.5"/>
+</svg>
