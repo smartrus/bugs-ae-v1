@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Dark background -->
+  <rect width="512" height="512" fill="#0a0a0f" rx="80"/>
+
+  <!-- Outer octagon (scan frame) -->
+  <polygon points="160,48 352,48 464,160 464,352 352,464 160,464 48,352 48,160"
+           stroke="#e11d48" stroke-width="24" stroke-linejoin="round" fill="rgba(225,29,72,0.08)"/>
+
+  <!-- Crosshair tick marks -->
+  <line x1="256" y1="48"  x2="256" y2="128" stroke="#e11d48" stroke-width="16" stroke-linecap="round"/>
+  <line x1="256" y1="384" x2="256" y2="464" stroke="#e11d48" stroke-width="16" stroke-linecap="round"/>
+  <line x1="48"  y1="256" x2="128" y2="256" stroke="#e11d48" stroke-width="16" stroke-linecap="round"/>
+  <line x1="384" y1="256" x2="464" y2="256" stroke="#e11d48" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Inner ring -->
+  <circle cx="256" cy="256" r="88" stroke="#e11d48" stroke-width="16" opacity="0.45"/>
+
+  <!-- Center probe dot -->
+  <circle cx="256" cy="256" r="40" fill="#e11d48"/>
+</svg>

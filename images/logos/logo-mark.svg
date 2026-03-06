@@ -1,0 +1,17 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer octagon: precision scanning frame -->
+  <polygon points="10,2 22,2 30,10 30,22 22,30 10,30 2,22 2,10"
+           stroke="#e11d48" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+  <!-- Crosshair tick marks (short, inner) -->
+  <line x1="16" y1="2"  x2="16" y2="7"  stroke="#e11d48" stroke-width="1" stroke-linecap="round"/>
+  <line x1="16" y1="25" x2="16" y2="30" stroke="#e11d48" stroke-width="1" stroke-linecap="round"/>
+  <line x1="2"  y1="16" x2="7"  y2="16" stroke="#e11d48" stroke-width="1" stroke-linecap="round"/>
+  <line x1="25" y1="16" x2="30" y2="16" stroke="#e11d48" stroke-width="1" stroke-linecap="round"/>
+  <!-- Inner ring -->
+  <circle cx="16" cy="16" r="5.5" stroke="#e11d48" stroke-width="1" opacity="0.45"/>
+  <!-- Center probe dot -->
+  <circle cx="16" cy="16" r="2.5" fill="#e11d48"/>
+  <!-- Subtle fill on octagon -->
+  <polygon points="10,2 22,2 30,10 30,22 22,30 10,30 2,22 2,10"
+           fill="#e11d48" opacity="0.06"/>
+</svg>
