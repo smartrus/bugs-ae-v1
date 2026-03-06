@@ -2,19 +2,15 @@
   <!-- Dark background -->
   <rect width="512" height="512" fill="#0a0a0f" rx="80"/>
 
-  <!-- Outer octagon (scan frame) -->
-  <polygon points="160,48 352,48 464,160 464,352 352,464 160,464 48,352 48,160"
-           stroke="#e11d48" stroke-width="24" stroke-linejoin="round" fill="rgba(225,29,72,0.08)"/>
+  <!-- Outer hexagon: circuit scan frame -->
+  <polygon points="256,48 436.8,152 436.8,360 256,464 75.2,360 75.2,152"
+           stroke="#10b981" stroke-width="24" stroke-linejoin="round" fill="rgba(16,185,129,0.05)"/>
 
-  <!-- Crosshair tick marks -->
-  <line x1="256" y1="48"  x2="256" y2="128" stroke="#e11d48" stroke-width="16" stroke-linecap="round"/>
-  <line x1="256" y1="384" x2="256" y2="464" stroke="#e11d48" stroke-width="16" stroke-linecap="round"/>
-  <line x1="48"  y1="256" x2="128" y2="256" stroke="#e11d48" stroke-width="16" stroke-linecap="round"/>
-  <line x1="384" y1="256" x2="464" y2="256" stroke="#e11d48" stroke-width="16" stroke-linecap="round"/>
+  <!-- Horizontal scan lines: graduated beam -->
+  <line x1="144" y1="192" x2="368" y2="192" stroke="#10b981" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
+  <line x1="104" y1="256" x2="408" y2="256" stroke="#10b981" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+  <line x1="144" y1="320" x2="368" y2="320" stroke="#10b981" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
 
-  <!-- Inner ring -->
-  <circle cx="256" cy="256" r="88" stroke="#e11d48" stroke-width="16" opacity="0.45"/>
-
-  <!-- Center probe dot -->
-  <circle cx="256" cy="256" r="40" fill="#e11d48"/>
+  <!-- Detection node: bug found -->
+  <circle cx="256" cy="256" r="40" fill="#10b981"/>
 </svg>
