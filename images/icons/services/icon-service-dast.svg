@@ -1,0 +1,13 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser / live app frame -->
+  <rect x="2" y="5" width="13" height="10" rx="1.5" stroke="#10b981" stroke-width="1.5" fill="rgba(16,185,129,0.06)"/>
+  <line x1="2" y1="8.5" x2="15" y2="8.5" stroke="#10b981" stroke-width="1" opacity="0.5"/>
+  <!-- Browser dots -->
+  <circle cx="4.5" cy="7" r="0.8" fill="#10b981" opacity="0.5"/>
+  <circle cx="7" cy="7" r="0.8" fill="#10b981" opacity="0.3"/>
+  <!-- Runtime content lines -->
+  <line x1="4" y1="11.5" x2="11" y2="11.5" stroke="#10b981" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <line x1="4" y1="13.5" x2="9" y2="13.5" stroke="#10b981" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <!-- Lightning bolt: dynamic / runtime testing -->
+  <polyline points="20,4 16.5,12 19.5,12 15.5,21" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
