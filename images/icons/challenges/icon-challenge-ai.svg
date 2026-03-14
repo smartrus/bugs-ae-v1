@@ -1,0 +1,14 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Agent node (unprotected — no shield, just raw) -->
+  <circle cx="12" cy="8" r="3.5" stroke="#10b981" stroke-width="1.5" fill="rgba(16,185,129,0.1)"/>
+  <!-- Agent "thinking" lines -->
+  <line x1="12" y1="4" x2="12" y2="2" stroke="#10b981" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="15.5" y1="5.5" x2="17" y2="4" stroke="#10b981" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="8.5" y1="5.5" x2="7" y2="4" stroke="#10b981" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Agent body -->
+  <path d="M7 17C7 14.2 9.2 12 12 12C14.8 12 17 14.2 17 17" stroke="#10b981" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Warning triangle (no security) -->
+  <path d="M19 20L21 16.5L23 20H19Z" stroke="#10b981" stroke-width="1.2" stroke-linejoin="round" fill="rgba(16,185,129,0.2)"/>
+  <line x1="21" y1="17.5" x2="21" y2="18.5" stroke="#10b981" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="21" cy="19.4" r="0.4" fill="#10b981"/>
+</svg>

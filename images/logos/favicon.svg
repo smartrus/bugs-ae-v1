@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Dark background -->
+  <rect width="512" height="512" fill="#0a0a0f" rx="80"/>
+
+  <!-- Outer hexagon: circuit scan frame -->
+  <polygon points="256,48 436.8,152 436.8,360 256,464 75.2,360 75.2,152"
+           stroke="#10b981" stroke-width="24" stroke-linejoin="round" fill="rgba(16,185,129,0.05)"/>
+
+  <!-- Horizontal scan lines: graduated beam -->
+  <line x1="144" y1="192" x2="368" y2="192" stroke="#10b981" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
+  <line x1="104" y1="256" x2="408" y2="256" stroke="#10b981" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+  <line x1="144" y1="320" x2="368" y2="320" stroke="#10b981" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Detection node: bug found -->
+  <circle cx="256" cy="256" r="40" fill="#10b981"/>
+</svg>

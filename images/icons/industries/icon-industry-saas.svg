@@ -1,0 +1,18 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal screen -->
+  <rect x="2" y="4" width="20" height="14" rx="2" stroke="#10b981" stroke-width="1.5" fill="rgba(16,185,129,0.06)"/>
+  <!-- Terminal bar -->
+  <line x1="2" y1="8" x2="22" y2="8" stroke="#10b981" stroke-width="1" opacity="0.5"/>
+  <!-- Traffic lights -->
+  <circle cx="5" cy="6" r="0.8" fill="#10b981" opacity="0.5"/>
+  <circle cx="7.5" cy="6" r="0.8" fill="#10b981" opacity="0.3"/>
+  <circle cx="10" cy="6" r="0.8" fill="#10b981" opacity="0.2"/>
+  <!-- Terminal prompt -->
+  <text x="5" y="13.5" font-family="monospace" font-size="4.5" fill="#10b981" opacity="0.9">$_</text>
+  <!-- Code lines -->
+  <line x1="5" y1="15.5" x2="13" y2="15.5" stroke="#10b981" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <line x1="5" y1="17" x2="10" y2="17" stroke="#10b981" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+  <!-- Stand -->
+  <line x1="12" y1="18" x2="12" y2="21" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="9" y1="21" x2="15" y2="21" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- LLM box -->
+  <rect x="2" y="5" width="15" height="11" rx="2" stroke="#10b981" stroke-width="1.5" fill="rgba(16,185,129,0.07)"/>
+  <!-- Neural nodes inside -->
+  <circle cx="6" cy="9" r="1" fill="#10b981" opacity="0.7"/>
+  <circle cx="6" cy="12" r="1" fill="#10b981" opacity="0.7"/>
+  <circle cx="10" cy="10.5" r="1.2" fill="#10b981"/>
+  <circle cx="14" cy="9" r="1" fill="#10b981" opacity="0.7"/>
+  <circle cx="14" cy="12" r="1" fill="#10b981" opacity="0.7"/>
+  <!-- Connections -->
+  <line x1="7" y1="9.3" x2="8.8" y2="10.2" stroke="#10b981" stroke-width="0.8" opacity="0.5"/>
+  <line x1="7" y1="11.7" x2="8.8" y2="10.8" stroke="#10b981" stroke-width="0.8" opacity="0.5"/>
+  <line x1="11.2" y1="10.2" x2="13" y2="9.3" stroke="#10b981" stroke-width="0.8" opacity="0.5"/>
+  <line x1="11.2" y1="10.8" x2="13" y2="11.7" stroke="#10b981" stroke-width="0.8" opacity="0.5"/>
+  <!-- Injection arrow cracking in from right -->
+  <line x1="19" y1="10.5" x2="15.5" y2="10.5" stroke="#10b981" stroke-width="1.5" stroke-linecap="round"/>
+  <polyline points="17.5,9 19,10.5 17.5,12" stroke="#10b981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Crack line on box -->
+  <polyline points="15,7 16,9 15,11" stroke="#10b981" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+</svg>
