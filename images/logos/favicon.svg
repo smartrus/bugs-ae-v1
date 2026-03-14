@@ -1,16 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
-  <!-- Dark background -->
-  <rect width="512" height="512" fill="#0a0a0f" rx="80"/>
-
-  <!-- Outer hexagon: circuit scan frame -->
-  <polygon points="256,48 436.8,152 436.8,360 256,464 75.2,360 75.2,152"
-           stroke="#10b981" stroke-width="24" stroke-linejoin="round" fill="rgba(16,185,129,0.05)"/>
-
-  <!-- Horizontal scan lines: graduated beam -->
-  <line x1="144" y1="192" x2="368" y2="192" stroke="#10b981" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
-  <line x1="104" y1="256" x2="408" y2="256" stroke="#10b981" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
-  <line x1="144" y1="320" x2="368" y2="320" stroke="#10b981" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
-
-  <!-- Detection node: bug found -->
-  <circle cx="256" cy="256" r="40" fill="#10b981"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <rect width="32" height="32" rx="6" fill="#10b981"/>
+  <!-- Hexagon scan frame -->
+  <polygon points="16,4 27,10 27,22 16,28 5,22 5,10" stroke="#ffffff" stroke-width="2" stroke-linejoin="round" fill="none"/>
+  <!-- Scan lines -->
+  <line x1="9" y1="12" x2="23" y2="12" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <line x1="7" y1="16" x2="25" y2="16" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="9" y1="20" x2="23" y2="20" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Bug detection dot -->
+  <circle cx="16" cy="16" r="2.5" fill="#ffffff"/>
 </svg>
